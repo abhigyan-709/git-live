@@ -9,4 +9,3 @@ text = input("Enter a string: ")
 freq_dict = word_frequency(text)
 for word, count in freq_dict.items():
     print(f"{word}: {count}")
- new content
