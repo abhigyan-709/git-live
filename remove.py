@@ -1,12 +1,8 @@
-# Example list with duplicates
-original_list = [1,1 2, 2, 3, 4, 4, 5,5, 6, 6]
+orig_list = [1,1, 2, 2, 3, 4, 4, 5,5, 6, 6]
+uniq_list = []
+for element in orig_list:
+    if element not in uniq_list:
+        uniq_list.append(element)
 
-# Create a unique list
-unique_list = []
-for element in original_list:
-    if element not in unique_list:
-        unique_list.append(element)
-
-# Print the results
-print("Original list:", original_list)
-print("List after removing duplicates:", unique_list)
+print("Original list:", orig_list)
+print("List after removing duplicates:", uniq_list)
