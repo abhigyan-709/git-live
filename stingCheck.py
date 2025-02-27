@@ -8,7 +8,6 @@ def stringCheck(s=""):
       break
   else:
     print("String does not contain digits")
-      
 
 a = str(input("Enter the string: "))
 stringCheck(a)
