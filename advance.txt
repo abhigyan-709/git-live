@@ -1,0 +1,29 @@
+Here are 20 Python automation script questions, ranging from basic to advanced:
+
+### **Basic Python Automation Questions**
+1. Write a Python script to rename all files in a directory by adding a prefix to their names.
+2. Create a Python script to copy files from one directory to another.
+3. Write a script that reads a CSV file and converts it into a JSON file.
+4. Develop a script that automatically renames all `.txt` files in a folder by appending the current date.
+5. Write a Python program that sends an email using **smtplib**.
+6. Create a script to extract URLs from a given website page using **BeautifulSoup**.
+7. Write a Python script to automate sending messages on WhatsApp using **pywhatkit**.
+8. Write a script to fetch and display weather information using an API (e.g., OpenWeatherMap).
+9. Automate the process of logging into a website using **Selenium**.
+10. Write a Python script to monitor a directory and alert when a new file is added.
+
+### **Intermediate Python Automation Questions**
+11. Write a script that extracts text from multiple PDF files and saves it into a text file.
+12. Develop a web scraper using **Scrapy** to fetch product details from an e-commerce website.
+13. Write a Python script that periodically takes a screenshot and saves it in a folder.
+14. Automate the creation of a daily report by pulling data from an Excel file and sending it via email.
+15. Write a script that automates the backup of a MySQL/PostgreSQL database.
+16. Create a Python script to resize all images in a folder to a fixed resolution using **Pillow**.
+17. Write a Python program that automates the creation of GitHub repositories using **GitHub API**.
+18. Develop a script to monitor system resource usage (CPU, RAM, Disk) and log the data.
+
+### **Advanced Python Automation Questions**
+19. Automate invoice generation using Python, fetching data from a database and generating PDFs.
+20. Write a Python script that uses AI (e.g., OpenAI GPT API) to generate automatic email replies based on message content.
+
+Would you like any explanations or solutions for these? 🚀

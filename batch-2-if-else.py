@@ -69,5 +69,30 @@
 
 # the range function
 
+# if else
 
+# n = int(input("Enter the Number you want to print: "))
+# if n % 2 == 0:
+#     print("Number is even: ", n)
+
+# elif n == 0:
+#     print("You have entered the number 0")
+
+# else:
+#     print("Please try again.")
+
+
+
+# nested if
+
+l1 = [1, 2, 3, 4, 5]
+n = int(input("Enter the number: "))
+
+if n in l1:
+    if n % 2 == 0: # nested if
+        print("Number is Divisible by 2, and its an even number.")
+    else: 
+        print("Number is odd")
+else:
+    print("Number is not in the list")
 

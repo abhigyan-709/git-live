@@ -1,31 +1,61 @@
-# # print("Hello World!")
+# # # print("Hello World!")
 
-# # a = 6 # int
-# # print(a, type(a))
+# # data types in python
+# # int
+# # float
+# # string
+# # list
+# # tuple
+# # set
+# # dictionary
+# # boolean
 
-# # b = 7.8 # float
-# # print(b, type(b))
+# a = 6 # int
+# print(a, type(a))
 
-# # c = "Abhigyan" # string 
-# # print(c, type(c))
+# b = 7.8 # float
+# print(b, type(b))
 
-# # d = [1, 2, "a"] # list
-# # print(d, type(d))
+# c = 'Abhigyan' # string 
+# print(c, type(c))
 
-# # e = (1, 2, 4, 5) # tuple
-# # print(e, type(e))
+# # list - but its an array in other languages
+# d_1 = [1, 6.6, "ayushi", 'akshay', True, False, (1, 2, 3, 4), {1, 2, 1, 2}]
 
-# # f = {"name": "Abhigyan" } # key value pair
-# # key = "name"
-# # value = "Abhigyan"
+# print(d_1, type(d_1), type(d_1[6]))
 
-# # g = (1, 2, 3, 1, 3, 4) 
-# # set(g)# set
-# # print(set(g), type(g))
+# e = (1, 2, 4, 5) # tuple
+# print(e, type(e))
 
-# # h = {1, 2, 4, 5, 1, 2, 3, 4, 5} # declaration of sets 
-# # print(h, type(h)) # printing the sets
+# f = {"name": "Abhigyan" } # key value pair
+# # what is dictionary - key value pair
 
+# dict1 = {
+#     "name" : "abhigyan",
+#     "city" : "delhi",
+#     "phone" : 1234567890,
+#     "percentage" : 89.04,
+#     "list_of_tech" : ["python", "aws", "devops"],
+#     "other_details" : {
+#         "address" : "delhi",
+#         "pincode" : 110001
+#     }
+# }
+
+# print(dict1, type(dict1))
+
+# g = (1, 2, 3, 1, 3, 4) 
+# set(g)# set
+# print(set(g), type(g))
+
+# g_1 = {1, 2, 4, 121, 12, 12, 1, 2, 4}
+# print(g_1)
+
+# h = {1, 2, 4, 5, 1, 2, 3, 4, 5} # declaration of sets 
+# print(h, type(h)) # printing the sets
+
+
+# python as a calcultor
 # print(17 + 9)
 # print(-3**2)
 
@@ -83,59 +113,119 @@
 # string
 
 # print("Hello World! \nThis is Project DevOps. \nThis is the batch 2 \nNumber of students is 80")
-
+# escape sequence
 # print("doesn't")
 # print('doesn\'t')
 
-# print('"yes",they said')
+# print("Doesn't")
+# print('Doesn\'t')
 
+# print('"yes",they said')
+# # escape sequences - \n new line \t - tab
 # print("Hello:\tAbhigyan")
 
-suffix = "thon"
-print("py" + suffix)
+# suffix = "thon"
+# print("py" + suffix)
 
-string = "python"
-print(string[-1])
+# prefix = "abhi"
+# suffix = "gyan"
 
-#python indexing 
+# print(prefix + suffix)
 
-"""
-In python indexing starts from L - R = 0
-In python indexing starts from R - L = -1
-"""
+# print(6 * "a")
 
-print(string[-1] == string[5])
-"yth"
-print(string[1:4])
+# # indexing and slicing of the string and lists
 
-# strat : stop : step
-string2 = "Hello World!"
-print(string2[::-1])
+# new_string = "a" + "b" + "c"
+# old_string = "ab"
+# print(new_string)
 
-# list 
+name = "abhigyan" 
+#[0 : a, 1 : b, 2 : h, 3 : i, 4 : g, 5 : y, 6 : a, 7 : n]
 
-list1 = [1,2, 34, 5]
+
+print("length of the name: ", len(name))
+
+print("Last character: ", name[-1])
+print("last character: ", name[7])
+
+random_char = "kBUGREIRCYUNEOIWRNQWY ORQWRCNOQIWTUYNO ITRYRICUNTYOITN UWYUIEYXONY   E   IRXEOCRIEHWRICNHOIXUWEHO    IU3Y4BROI37YCNOI42HYC OI4HPUIOsO HRWVOTIUNH5OVTIUHW WOTIU W5HOIT"
+a = len(random_char)
+print("Length of random character: ", a)
+print(random_char[a-1])
+
+b = random_char[-1]
+print("Last character: ", b)
+
+
+# left to right - indexing start from 0
+# right to left - indexing start from -1
+
+
+
+# # list #range function - [start : stop : step]
+# print(name[0])
+
+# # from left to right -> 0
+
+
+# print(name[::-1])
+
+
+
+
+
+# string = "python"
+# print(string[-1])
+
+# #python indexing 
+
+# """
+# In python indexing starts from L - R = 0
+# In python indexing starts from R - L = -1
+# """
+
+name = "abhigyan"
+print(name[-1] == name[7])
+
+# "yth"
+# print(string[1:4])
+
+# # strat : stop : step
+# string2 = "Hello World!"
+# print(string2[::-1])
+
+# # list 
+
+list1 = [1, 2, 3, 5, 3, 4, 5, 1, 2, 4, 5]
+print(list1)
 # list1[0:n+1]
-list1[0:5]
 
-print(list1[-3:0])
-
-# upper 
-# lower 
-# reverse
-# filter
-# map
-# zip
-
-list2 = [1, 2,4, 5, 6,7, 7, 8, 3, 4, 5, 6, 7, 8, 9, 2, 4, 5, 6,7, 8, 9, 0, 4, 3, 3, 8, 3, 4, 5, 6, 7, 8, 9, 2, 4, 5, 6,7, 8, 9, 0, 4, 3, 3, 8, 9, 2, 4, 5, 6,7, 8, 9, 0, 4, 3, 3, 8, 3, 4]
-
-print(list2[-1])
+# [0 : n] n = 3
+print(list1[0:4])
 
 
-name1 = "simran"
-print(name1[::-6])
-print(name1[::-5])
-print(name1[::-4])
-print(name1[::-3])
-print(name1[::-2])
-print(name1[::-1])
+
+# new_list = list1[0:2]
+# print(new_list)
+# # print(list1[-3:0])
+
+# # upper 
+# # lower 
+# # reverse
+# # filter
+# # map
+# # zip
+
+# list2 = [1, 2,4, 5, 6,7, 7, 8, 3, 4, 5, 6, 7, 8, 9, 2, 4, 5, 6,7, 8, 9, 0, 4, 3, 3, 8, 3, 4, 5, 6, 7, 8, 9, 2, 4, 5, 6,7, 8, 9, 0, 4, 3, 3, 8, 9, 2, 4, 5, 6,7, 8, 9, 0, 4, 3, 3, 8, 3, 4]
+
+# print(list2[-1])
+
+
+# name1 = "simran"
+# print(name1[::-6])
+# print(name1[::-5])
+# print(name1[::-4])
+# print(name1[::-3])
+# print(name1[::-2])
+# print(name1[::-1])
