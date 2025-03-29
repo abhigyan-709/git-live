@@ -1,0 +1,1 @@
+# in python error handling is done by try, except block
