@@ -38,12 +38,4 @@ CMD ["java", "-jar", "/usr/lib/jenkins/jenkins.war"]
 
 
 
-
-c1 - 
-
-    1. nginx.conf
-    2. html.home 
-
-    c1 - stop 
-
     
