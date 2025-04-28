@@ -1,6 +1,12 @@
-def add(a, b):
-    return a + b
+# operator precedence
 
-print(add(a = 1, b = 5))
+-3 ** 2
 
+# ** > -
 
+# 3 ** 2
+# -9
+
+(-3) ** 2
+
+() >> ** > -
